@@ -165,6 +165,7 @@ public class GameBoard {
 			if (collision.isCrash()) {
 				Car winner = collision.evaluate();
 				printWinner(winner);
+				getAudioPlayer().playCrashSound();
 
 				// TODO Backlog Item 12: Play crash sound
 				// Hint: take a look at AudioPlayer

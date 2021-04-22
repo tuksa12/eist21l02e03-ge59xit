@@ -14,7 +14,7 @@ public class AudioPlayer implements AudioPlayerInterface {
 
 	private static final String BACKGROUND_MUSIC_FILE = "Music.wav";
 	// TODO Change Request: Configure your own crash sound here
-	private static final String CRASH_SOUND_FILE = "Bang.wav";
+	private static final String CRASH_SOUND_FILE = "LASER.WAV";
 
 	private static final double CRASH_SOUND_VOLUME = 0.5;
 
